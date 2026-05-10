@@ -46,7 +46,7 @@ All documentation is available at https://gl00b.github.io/GLUE3D/
 
 ## Credits
 
-Glue3D is not mine it was developed by Gl00b and can be found here
+Glue3D is not mine it was developed by Gl00b and can be found [here](https://github.com/GL00B/GLUE3D)
 
-[Glue 3D](https://github.com/GL00B/GLUE3D)
+
 
