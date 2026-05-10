@@ -8,7 +8,17 @@
 
 ## What does it add?
 
-It is in very early stage development so nothing much to note here...
+G3DCE adds many features like importing assets, a compiler system, a more advanced text editor, and many more features which can be toggled from the settings
+
+## How do I contribute?
+
+You can contribute to G3DCE by making a pull request with a feature you'd like to add, or even just tell a developer about an idea you have.
+By the next build or even beta, your feature will be added
+
+> [!CAUTION]
+> Be sure to make your pull request before the pull window closes, if it's closed, you'll have to wait until it's open again
+
+> The pull window is currently: **OPEN**
 
 ## Things to note
 
