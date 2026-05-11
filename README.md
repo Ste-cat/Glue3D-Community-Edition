@@ -1,6 +1,4 @@
-<p align="center">
-  <img width="658" height="200" alt="image" src="https://raw.githubusercontent.com/Made-By-Matt/Glue3D-Community-Version/refs/heads/main/Glue3D%20Banner.png" />
-</p>
+![v1.1.2 beta "gameplay"](https://github.com/Droplets21/Glue3D-Community-Edition/blob/main/new_banner.png)
 
 # Glue3D CE
 
