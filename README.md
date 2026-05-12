@@ -8,6 +8,10 @@
 
 G3DCE adds many features like importing assets, a compiler system, a more advanced text editor, and many more features which can be toggled from the settings
 
+## How do I get G3DCE?
+
+You can download the latest build from the realeses menu, use tags to filter if you want to use beta or stable builds
+
 ## How do I contribute?
 
 You can contribute to G3DCE by making a pull request with a feature you'd like to add, or even just tell a developer about an idea you have.
@@ -16,11 +20,12 @@ By the next build or even beta, your feature will be added **please check the co
 > [!CAUTION]
 > Be sure to make your pull request before the pull window closes, if it's closed, you'll have to wait until it's open again
 
+> [!NOTE]
 > The pull window is currently: **OPEN**
 
 ## Things to note
 
-This is ran and owned by the community.
+This is ran and owned by the community, Gl00b has no ascociation with this project.
 
 ### Resources
 
@@ -40,11 +45,11 @@ Now that you have your copy, it's time to read the documentation :).
 > [!CAUTION]
 > It is super important to read the documentation. Beta tests have shown that people are truly clueless without it. If you plan to actually make something with this engine, you should really read this, even if just briefly.
 
-All documentation is available at https://gl00b.github.io/GLUE3D/ 
+All documentation is available at https://gl00b.github.io/GLUE3D/
 
 ## Credits
 
-Glue3D is not mine it was developed by Gl00b and can be found [here](https://github.com/GL00B/GLUE3D)
+Glue3D is not ours, it was developed by Gl00b and can be found [here](https://github.com/GL00B/GLUE3D)
 
 
 
