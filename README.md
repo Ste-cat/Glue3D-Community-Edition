@@ -19,6 +19,8 @@ You can download the latest build from the realeses menu, use tags to filter if 
 
 You can contribute to G3DCE by making a pull request with a feature you'd like to add, or even just tell a developer about an idea you have.
 By the next build or even beta, your feature will be added **please check the contributions folder for more information**
+> [!tip]
+> I'd recommend watching [this video](https://youtu.be/G8Fj0KSqNPM)
 
 > [!CAUTION]
 > Be sure to make your pull request before the pull window closes, if it's closed, you'll have to wait until it's open again
