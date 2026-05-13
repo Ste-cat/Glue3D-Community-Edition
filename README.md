@@ -12,7 +12,7 @@ G3DCE adds many features like importing assets, a compiler system, a more advanc
 
 You can download the latest build from the realeses menu, use tags to filter if you want to use beta or stable builds
 > [!tip]
-> use the provided .sprite3 file to export your projects into G3DCE
+> use the provided .sprite3 file to export your base Glue3D projects into G3DCE
 
 
 ## How do I contribute?
