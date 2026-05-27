@@ -1,0 +1,631 @@
+object.start
+axis
+go to
+go_to(val x, val y, val z, val speed)
+axis
+go to object
+go_to_object(str object, val speed)
+axis
+move
+move(val 0, val 0, val 0)
+axis
+directional move
+move_dir(val dir, val distance)
+rotate
+rotate to
+rotate_to(val rx, val ry, val rz, val speed)
+rotate
+rotate towards
+rotate_toward(str object, val speed)
+rotate
+turn
+turn(val 0, val 0, val 0)
+stretch
+scale
+scale_to(val sx, val sy, val sz, val speed)
+group
+distance to object
+distance(str object)
+object
+clone
+clone(str script)
+trash
+delete
+delete()
+dictionary
+new attribute
+new_attribute(str object, val name, val value)
+dictionary
+get data
+get_data(str object, str data)
+dictionary
+edit data
+edit_data(str object, str data, val value)
+object.end
+variable.start
+graph
+set variable
+var variable = val value 
+stats
+set to data return
+var variable = data_return 
+stats
+increase variable
+var variable += val value 
+stats
+decrease variable
+var variable -= val value 
+stats
+multiply variable
+var variable *= val value 
+variable.end
+terminal.start
+trash
+clear terminal
+clear()
+command
+print string
+print(str hello_world, val color)
+command
+print variable
+print(var variable, val color)
+command
+print number
+print(val value, val color)
+command
+note
+//note()
+terminal.end
+other.start
+unknown
+wait
+wait (val value)
+unknown
+if equal
+if (var variable = val value)
+unknown
+if more
+if (var variable > val value)
+unknown
+if less
+if (var variable < val value)
+unknown
+forever loop
+forever 
+unknown
+while less
+while (var variable < val value)
+unknown
+while equal
+while (var variable = val value)
+unknown
+while more
+while (var variable > val value)
+unknown
+end while
+endwhile
+unknown
+end if
+endif
+unknown
+end forever
+endforever
+other.end
+game.start
+game
+include game
+include_game()
+game
+movement type
+movement_type(str type)
+game
+movement
+movement(val speed, val turn_speed)
+game
+key pressed?
+key_pressed(str key)
+game
+get key
+get_key()
+scene
+set camera
+set_camera(str camera)
+scene
+first person cam
+camera_1st(str object, val elevation)
+scene
+third person cam
+camera_3rd(str object, val distance, val speed)
+scene
+field of view
+fov(str fov)
+game.end
+physics.start
+tile
+include physics
+include_physics()
+tile
+set factors
+set_factors(val gravity, val jump, val friction, val bounce)
+axis
+set hitbox
+hitbox(val x, val y, val z)
+group
+surface collision
+surface_collision(str true)
+group
+hitbox collision
+hitbox_collision(str true)
+tile
+add force
+add_force(str axis, val force)
+group
+directional force
+dir_force(val direction, val distance)
+tile
+on floor ?
+on_floor()
+tile
+collided
+collided()
+game
+physics tick
+physics_tick()
+physics.end
+math.start
+ghostdiv
+random a to b
+random(val a, val b)
+stats
+a + b
+add(val a, val b)
+stats
+a - b
+subtract(val a, val b)
+stats
+a * b
+multiply(val a, val b)
+stats
+a / b
+divide(val a, val b)
+stats
+a mod b
+modulo(val a, val b)
+stats
+a ^ b
+power(val a, val b)
+stats
+sqrt a
+sqrt(val a)
+stats
+interpolate a b c
+interpolate(val a, val b, val c)
+stats
+clamp min max
+clamp(val a, val min, val max)
+graph
+sin a
+sin(val a)
+graph
+cos a
+cos(val a)
+graph
+tan a
+tan(val a)
+graph
+log a
+log(val a)
+graph
+asin a
+asin(val a)
+graph
+acos a
+acos(val a)
+graph
+atan a
+atan(val a)
+graph
+floor a
+floor(val a)
+graph
+abs a
+abs(val a)
+memo
+string operations
+
+group
+letter a of b
+letter(val a, str b)
+group
+join a b
+join(str a, str b)
+point
+a and b
+and(val a, val b)
+point
+a or b
+or(val a, val b)
+point
+a xor b
+xor(val a, val b)
+point
+not a
+not(val a)
+point
+a > b
+greater_than(val a, val b)
+point
+a < b
+less_than(val a, val b)
+point
+a = b
+equals(val a, val b)
+memo
+length of string
+str_length(str string)
+math.end
+model.start
+model
+set model
+set_model(str model)
+model
+refresh models
+refresh_models()
+bone
+set bone
+set_bone(str bone)
+rotate
+rotate bone
+rotate_bone(val 0, val 0, val 0, str bone)
+rotate
+turn bone
+turn_bone(val 0, val 0, val 0, str bone)
+graph
+set easing
+ease(val value)
+model.end
+sound.start
+music
+play sound
+play(str sound_name)
+music
+stereo sound
+stereo()
+music
+mono sound
+mono()
+stats
+advanced play
+play_advanced(str id, str sound_name, val volume, val pitch)
+stats
+edit sound
+edit(str id, val volume, val pitch)
+sound.end
+interface.start
+ui
+set costume to
+set_id(str costume_id)
+bsod
+display text
+text(str text)
+axis
+go to
+set_pos(val x, val y)
+rotate
+set direction
+dir(val direction)
+stretch
+scale factor
+scale(val scale)
+axis
+mouse pos (x / y)
+get_mouse_axis(str axis)
+ui
+set clickable
+clickable(str true)
+ui
+is clicked?
+clicked()
+color
+ghost effect
+set_ghost(val value)
+interface.end
+time.start
+clock
+stop script
+halt()
+clock
+current timer
+timer()
+clock
+reset timer
+reset()
+clock
+ticks from start
+ticks()
+clock
+timer * factor
+timer_factor(val factor)
+clock
+tick * factor
+tick_factor(val factor)
+clock
+delta time
+delta()
+time.end
+file.start
+file
+create file
+create_file(str name, str true)
+trash
+delete file
+delete_file(str name)
+filemove
+move item
+move_item(str name, str filename)
+filecopy
+copy item
+copy_item(str name, str filename, str copyname)
+trash
+delete item
+delete_item(str name)
+filenew
+create item
+create_item(str type, str name, str file)
+file.end
+editor.start
+tilechangeheight
+include editor
+include_editor
+model
+create model
+create_model(str name, str type, str file)
+bone
+create bone
+create_bone(str name, str file)
+object
+3d object
+create_object(str name, str script, str model)
+object
+static3d object
+static_object(str name, str model)
+model
+edit mode7 model
+edit_mode7(str name, str texture)
+point
+set 3d points
+set_points(val number, val x, val y, val z)
+tilechangeheight
+add quad to model
+add_quad(str modelname, val texture, val group)
+point
+set 2d points
+set_2d_points(val number, val x, val z)
+point
+set fake height
+set_fake_height(val number, val ytop, val ybottom)
+tilechangeheight
+add seg to model
+add_seg(str modelname, val texture, val group, val surface)
+editor.end
+list.start
+filenew
+create list
+create_list(str name, str file)
+trash
+clear list
+clear(str name)
+drive
+add item
+add_item(str listname, str value)
+drive
+edit item
+edit_item(str list, val index, str newvalue)
+drive
+delete item
+delete_item(str list, val index)
+drive
+read item
+read(str list, val index)
+drive
+list reporter
+read_list(str list)
+drive
+list length
+length(str list)
+list.end
+func.start
+seperator
+instancing
+
+func
+start
+start().in
+func
+end
+end().out
+seperator
+calling
+
+func
+call function
+call(str name)
+func
+set all inputs
+inputs(str in1, str in2, str in3, str in4)
+func
+set an input
+input1(val in#, str in)
+seperator
+resources
+
+func
+read input
+read(val input#)
+func
+return
+return(str return)
+func.end
+global.start
+seperator
+global instances
+
+global
+create global
+create(str name, val data)
+global
+create with class
+create_for_class(str name, val data, str class)
+lock
+create global const
+create_const(str name, val data)
+wall
+create class
+create_class(str name)
+trash
+delete global
+delete(str name)
+trash
+delete global const
+delete_const(str name)
+trash
+delete class
+delete_class(str name)
+seperator
+global manipulation
+
+global
+set global
+set(str name, val newdata)
+global
+add to global
+add(str name, val amount)
+global
+read global
+read(str name)
+lock
+read const
+read_const(str name).dr
+wall
+add to class
+add_class(str global, str class)
+wall
+remove from class
+remove_class(str global)
+seperator
+global operators
+
+global
+global exists?
+exist(str name).dr
+lock
+global const exists?
+exist_const(str name).dr
+wall
+class exists?
+exist_class(str name).dr
+seperator
+advanced class tools
+
+wall
+sum of all in class
+sum_class(str name)
+drive
+class to list
+class_list(str class, str list)
+unknown
+class to json
+class_json(str class).dr
+global.end
+gluedisc.start
+seperator
+instancing
+
+disc
+save scene
+save(str name)
+disc
+save scene to slot
+save_slot(str name, val slot)
+disc
+load scene
+load(str name)
+disc
+load slot
+load_slot(val slot)
+drive
+save from list
+save_list(str list, str name)
+drive
+load from list
+load_list(str list)
+trash
+delete scene
+delete(str name)
+trash
+clear scenes
+clear()
+seperator
+tools
+
+drive
+add metadata
+add_meta(str scene_name, str var_name, val data)
+drive
+set metadata
+set_meta(str scene_name, str var_name, val new_data)
+drive
+read metadata
+read_meta(str scene_name, str var_name).dr
+disc
+import save
+import(str name)
+disc
+export save
+export(str name)
+seperator
+management
+
+disc
+rename scene
+rename(str scene, str new_name)
+disc
+duplicate scene
+duplicate(str scene, str newname)
+drive
+list scenes
+list(str list, str scene)
+seperator
+operators
+
+disc
+save exists?
+exist(str name).dr
+disc
+slot is taken?
+taken(val slot).dr
+disc
+save in slot
+saveslot(val slot).dr
+disc
+slot of save
+slotsave(str name).dr
+drive
+get save size
+size(str name).dr
+scene
+is scene loading?
+loading().dr
+seperator
+serialization
+
+object
+save object
+save_obj(str name)
+object
+load object
+load_obj(str name)
+trash
+delete obj
+delete_obj(str name)
+gluedisc.end
