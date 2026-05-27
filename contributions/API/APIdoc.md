@@ -29,3 +29,6 @@ This is documentation on how to mod Glue3DCE, this will introduce you into how m
      * **Render box** renders a box using two 2Dvectors, with inputs like `GBC` and it's type (idk what this input does, so just set it to `1` for default)
      * **Text** draws a string, with many inputs like position, size, if it's centered, `GBC`, and even if it shows a cursor for when editing
      * **Gui element** renders certain ui-elements using instructions, this one is a bit harder to use since you're setting up the instructions in a list-before calling the function, but I recommend you find and see how the engine uses them to find out how the work
+  
+4. **Category extensions**\
+   to make a category extension, you must first create it's entry in the autocomplete, then define it's code, and then upload it. This is too much to write about so just ask @Droplets21 about it on the Glue3d.net discord, when your done with both those steps, follow this [video](https://youtu.be/ZRG8cP-OHhk)
